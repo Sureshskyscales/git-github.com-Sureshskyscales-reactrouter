@@ -1,0 +1,21 @@
+{
+    "careers":[
+        {
+            "id": 1,
+            "title": "Senior react developer",
+            "salary": 150000,
+            "location":"Chennai,India "
+        },
+        {
+            "id": 2,
+            "title": "DevOps Engineer",
+            "salary": 200000,
+            "location":"Bangalore,India "
+        },{
+            "id": 3,
+            "title": "Junior Sotware developer",
+            "salary": 150000,
+            "location":"Coimbatore, India "
+        }
+    ]
+}
