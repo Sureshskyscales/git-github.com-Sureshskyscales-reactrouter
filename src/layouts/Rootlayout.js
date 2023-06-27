@@ -1,15 +1,19 @@
 import React from 'react'
 import Navbar from '../Components/Navbar'
 import { Outlet } from 'react-router-dom'
-import { Container } from '@mui/material'
+import { Box, Container} from '@mui/material'
+import AppBreadcrumbs from '../Components/AppBreadcrumbs'
 
 const Rootlayout = () => {
   return (
     <>
     <Navbar/>
-    <Container sx={{p:5}}>   
+    <Box>   
+     <AppBreadcrumbs/>
+     </Box>
+    <Box >   
      <Outlet/>
-     </Container>
+     </Box>
     </>
   )
 }
